@@ -43,8 +43,7 @@ Usage Example:
 
 Usage Example:
 ```SELECT Name, YearlySalary(Salary) AS yearlysalary
-FROM Employees;
-```
+FROM Employees;```
 
 ## How to Run the Task
 - Ensure the Employees table exists (from previous tasks).
