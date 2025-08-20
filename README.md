@@ -42,8 +42,10 @@ Usage Example:
 - Calculates yearly salary based on the monthly salary value.
 
 Usage Example:
-```SELECT Name, YearlySalary(Salary) AS yearlysalary
-FROM Employees;```
+```
+SELECT Name, YearlySalary(Salary) AS yearlysalary
+FROM Employees;
+```
 
 ## How to Run the Task
 - Ensure the Employees table exists (from previous tasks).
