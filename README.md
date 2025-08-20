@@ -31,13 +31,27 @@ INSERT INTO Employees (Name, Department, Age, Salary) VALUES
 ('George', 'Marketing', 27, 50000);
 ```
 
+## Stored Procedure and Function
+- Stored Procedure: Getemployeesbydept
+- Fetches ID, Name, and Department based on the given department name.
+
+Usage Example:
+```CALL Getemployeesbydept('HR');```
+
+- Function: Yearlysalary
+- Calculates yearly salary based on the monthly salary value.
+
+Usage Example:
+```SELECT Name, YearlySalary(Salary) AS yearlysalary
+FROM Employees;
+```
 
 ## How to Run the Task
 - Ensure the Employees table exists (from previous tasks).
 - Open task8.sql in MySQL Workbench.
 - Run the script to create the procedure and function.
 - Execute the examples given above.
-- Check screenshots in the screenshots/ folder for output.
+- Check the PNG screenshots uploaded in the repository for output.
 
 ## Key Learnings
 - Benefits of modular SQL code for reusability and clarity
