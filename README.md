@@ -36,8 +36,7 @@ INSERT INTO Employees (Name, Department, Age, Salary) VALUES
 - Fetches ID, Name, and Department based on the given department name.
 
 Usage Example:
-```CALL Getemployeesbydept('HR');
-```
+```CALL Getemployeesbydept('HR');```
 
 - Function: Yearlysalary
 - Calculates yearly salary based on the monthly salary value.
